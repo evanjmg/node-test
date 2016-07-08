@@ -2,8 +2,7 @@
 
 const express = require('express'),
     bodyParser = require('body-parser'),
-    routes = require('./lib/routes'),
-    giphinateHandler = require('../lib/handlers/giphinate'),
+    giphinateHandler = require('./lib/handlers/giphinate'),
     app = express()
 
 app
